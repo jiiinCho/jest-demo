@@ -27,7 +27,9 @@ const Habit = memo(
       <li className="habit">
         <div className="habit-meta-container">
           <span className="habit-name">{name}</span>
-          <span className="habit-count">{count}</span>
+          <div className="habit-count-container">
+            <span className="habit-count">{count}</span>
+          </div>
         </div>
         <div className="habit-button-container">
           <button
