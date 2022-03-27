@@ -41,7 +41,10 @@ const App = ({ habitPresenter }: AppProps) => {
     [habitPresenter]
   );
 
-  const handleReset: ResetT = useCallback(() => habitPresenter.onReset, []);
+  const handleReset: ResetT = useCallback(
+    () => habitPresenter.onReset(setHabits),
+    [habitPresenter]
+  );
 
   return (
     <>

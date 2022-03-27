@@ -12,7 +12,7 @@ const defaultHabit: HabitT[] = [
   { id: 3, name: "Coding", count: 0 },
 ];
 
-const MAX_HABITS: number = 3;
+const MAX_HABITS: number = 10;
 const habitPresenter: HabitPresenterI = new HabitPresenter(
   defaultHabit,
   MAX_HABITS

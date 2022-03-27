@@ -49,6 +49,7 @@ ul {
 
 .navbar-count {
   font-size: 1.25rem;
+  margin-bottom: 0.15rem;
   color: var(--color-templateWhite);
 }
 
